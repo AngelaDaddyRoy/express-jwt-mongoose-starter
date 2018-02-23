@@ -1,0 +1,39 @@
+{
+  "name": "biovr-projman",
+  "version": "0.0.2",
+  "description": "re-code for biovr-projman-api",
+  "main": "app.js",
+  "devDependencies": {
+    "eslint-plugin-promise": "^3.6.0"
+  },
+  "scripts": {
+    "start": "nodemon ./bin/www.js",
+    "lint": "eslint --ext .js --fix  app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:MonoDev/biovr-projman.git"
+  },
+  "keywords": [
+    "biovr",
+    "projman"
+  ],
+  "author": "monodev",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.2",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "express-jwt": "^5.3.0",
+    "express-validation": "^1.0.2",
+    "http-status": "^1.0.1",
+    "joi": "^13.1.2",
+    "jsonwebtoken": "^8.1.1",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.6",
+    "morgan": "^1.9.0"
+  }
+}
